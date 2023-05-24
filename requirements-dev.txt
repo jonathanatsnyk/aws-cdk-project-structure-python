@@ -87,7 +87,7 @@ radon==5.1.0
     # via
     #   -r requirements-dev.in
     #   xenon
-requests==2.28.1
+requests==2.31.0
     # via
     #   safety
     #   xenon
