@@ -6,11 +6,11 @@
 #
 astroid==2.12.10
     # via pylint
-bandit==1.7.4
+bandit==1.7.7
     # via -r requirements-dev.in
-black==22.8.0
+black==24.3.0
     # via -r requirements-dev.in
-certifi==2022.9.24
+certifi==2024.7.4
     # via requests
 charset-normalizer==2.1.1
     # via requests
@@ -32,9 +32,9 @@ future==0.18.2
     # via radon
 gitdb==4.0.9
     # via gitpython
-gitpython==3.1.27
+gitpython==3.1.41
     # via bandit
-idna==3.4
+idna==3.7
     # via requests
 importlib-metadata==4.12.0
     # via
@@ -87,7 +87,7 @@ radon==5.1.0
     # via
     #   -r requirements-dev.in
     #   xenon
-requests==2.28.1
+requests==2.32.2
     # via
     #   safety
     #   xenon
@@ -128,14 +128,15 @@ typing-extensions==4.3.0
     #   importlib-metadata
     #   mypy
     #   pylint
-urllib3==1.26.12
+urllib3==1.26.19
     # via requests
 wrapt==1.14.1
     # via astroid
 xenon==0.9.0
     # via -r requirements-dev.in
-zipp==3.8.1
+zipp==3.19.1
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
